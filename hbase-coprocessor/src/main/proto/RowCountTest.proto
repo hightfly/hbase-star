@@ -1,5 +1,4 @@
 option java_package = "cn.com.hbase.coprocessor.endpoint";
-
 option java_outer_classname = "GetRowCount";
 option java_generic_services = true;
 option optimize_for = SPEED;
