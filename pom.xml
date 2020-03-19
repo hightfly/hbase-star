@@ -11,6 +11,7 @@
     <modules>
         <module>hbase-api</module>
         <module>hbase-moniter</module>
+        <module>hbase-coprocessor</module>
     </modules>
 
 
