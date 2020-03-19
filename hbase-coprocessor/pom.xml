@@ -10,8 +10,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>cn.com.hbase.coprocessor</artifactId>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>6</source>
+                    <target>6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
-<!--    <repositories>-->
+    <!--    <repositories>-->
 <!--        <repository>-->
 <!--            <id>cloudera</id>-->
 <!--            <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>-->

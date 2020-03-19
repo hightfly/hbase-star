@@ -17,9 +17,12 @@ import com.google.protobuf.RpcCallback;
 import com.google.protobuf.RpcController;
 import com.google.protobuf.Service;
 
+import static cn.com.hbase.coprocessor.endpoint.GetRowCount.hbaseEndPointTestService;
+import static cn.com.hbase.coprocessor.endpoint.GetRowCount.getRowCountRequest;
+import static cn.com.hbase.coprocessor.endpoint.GetRowCount.getRowCountResponse;
 
-public class TestRowCountEndPoint extends
-    hbaseEndPointTestService implements Coprocessor,
+
+public class TestRowCountEndPoint extends hbaseEndPointTestService implements Coprocessor,
     CoprocessorService {
 
   // 单个region的上下文环境信息
