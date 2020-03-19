@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>hbase-api</module>
+        <module>hbase-moniter</module>
     </modules>
 
 
